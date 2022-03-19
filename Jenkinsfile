@@ -1,5 +1,5 @@
 pipeline {
-    agent "asd"
+    agent agent1
     stage('Checkout Stage') {
         echo "---Checkout---"
         echo "---Checkout---"
