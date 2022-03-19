@@ -4,12 +4,13 @@ pipeline {
         echo "---Checkout---"
         echo "---Checkout---"
     }
+    stages{
+        stage('Build Stage') {
+            echo "---Build Stage---"
+        }
 
-    stage('Build Stage') {
-        echo "---Build Stage---"
-    }
-
-    stage('Push Stage') {
-        echo "---Push Stage---"
+        stage('Push Stage') {
+            echo "---Push Stage---"
+        }
     }
 }
