@@ -1,4 +1,3 @@
-echo "---build start---"
 pipeline {
     agent "asd"
     stage('Checkout Stage') {
