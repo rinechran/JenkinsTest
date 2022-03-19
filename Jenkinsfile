@@ -2,6 +2,7 @@ echo "---build start---"
 
 stage('Checkout Stage') {
     echo "---Checkout---"
+    echo "---Checkout---"
 }
 
 stage('Build Stage') {
