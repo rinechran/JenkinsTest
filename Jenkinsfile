@@ -1,14 +1,16 @@
 echo "---build start---"
+pipeline {
+    agent "asd"
+    stage('Checkout Stage') {
+        echo "---Checkout---"
+        echo "---Checkout---"
+    }
 
-stage('Checkout Stage') {
-    echo "---Checkout---"
-    echo "---Checkout---"
-}
+    stage('Build Stage') {
+        echo "---Build Stage---"
+    }
 
-stage('Build Stage') {
-    echo "---Build Stage---"
-}
-
-stage('Push Stage') {
-    echo "---Push Stage---"
+    stage('Push Stage') {
+        echo "---Push Stage---"
+    }
 }
