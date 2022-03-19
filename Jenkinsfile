@@ -1,16 +1,10 @@
 pipeline {
-    agent "agent1"
-    stage('Checkout Stage') {
-        echo "---Checkout---"
-        echo "---Checkout---"
-    }
-    stages{
-        stage('Build Stage') {
-            echo "---Build Stage---"
-        }
-
-        stage('Push Stage') {
-            echo "---Push Stage---"
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo "asd"
+            }
         }
     }
 }
